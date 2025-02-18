@@ -1,0 +1,43 @@
+h1{
+	background-color: #000000;
+	color: aliceblue;
+	padding: 50px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 15px;
+    margin: 20px auto;
+    font-weight: bolder;
+    font-size: 1.8em;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+ul {
+    background-color: rgb(37, 226, 226);
+    color: antiquewhite;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px auto;
+	font-size: large;
+}
+
+li{
+	margin: 0 70px;
+	cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s, border-radius 0.3s;
+}
+
+li:hover {
+    background-color: #2a2929;
+    color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
