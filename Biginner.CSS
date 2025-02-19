@@ -1,5 +1,8 @@
+body{
+	background-color: #FFFAEC;
+}
 h1{
-	background-color: #000000;
+	background-color: #578E7E;
 	color: aliceblue;
 	padding: 50px;
 	text-align: center;
@@ -8,7 +11,7 @@ h1{
 
 h2 {
     text-align: center;
-    background-color: aquamarine;
+    background-color: #578E7E;
     padding: 15px;
     margin: 20px auto;
     font-weight: bolder;
@@ -16,9 +19,13 @@ h2 {
     width: fit-content;
     border-radius: 8px;
 }
-
+div{
+	background-color: #F5ECD5;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
 ul {
-    background-color: rgb(37, 226, 226);
+    background-color:#3D3D3D;
     color: antiquewhite;
     list-style: none;
     display: flex;
@@ -26,13 +33,12 @@ ul {
     justify-content: center;
     border-radius: 10px;
     margin: 20px auto;
-	font-size: large;
 }
 
 li{
-	margin: 0 70px;
-	cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, padding 0.3s, border-radius 0.3s;
+	margin: 10px 70px;
+	font-size:larger;
+    transition: background-color 0.3s, color 0.3s, padding 0.4s, border-radius 0.3s;
 }
 
 li:hover {
@@ -40,4 +46,5 @@ li:hover {
     color: white;
 	border-radius: 5px;
 	padding: 10px;
+	cursor: pointer;
 }
