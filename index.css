@@ -1,0 +1,25 @@
+body{
+	background-color: #FFFAEC;
+	font-family:cursive;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li{
+	background-color: #F5ECD5;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #578E7E;
+}
+
+a:hover{
+	color: #000000;
+}
